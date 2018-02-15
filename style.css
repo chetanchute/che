@@ -1,0 +1,295 @@
+/* universal style */
+body {
+  background-image: url('./imgs/background.jpg');
+  background-position: center top;
+  background-size: cover;
+  margin: 0;
+}
+
+li a
+{
+	text-decoration: none;
+}
+li a:visited {
+   text-decoration: none;
+}
+li a:hover {
+    font-size: 29px;
+}
+li a:focus {
+   text-decoration: none;
+}
+li a:active {
+    text-decoration: none;
+}
+
+
+
+
+/* steady navigation section*/
+
+
+.navigation {
+  background-color: rgba(255, 255, 255, 1);
+  overflow-y: auto;
+  position: fixed;
+  left: 0;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  z-index: 10000;
+}
+#logo {
+  color: #FCA311;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 32px;
+  padding: 0px 50px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  color: #14213D;
+  display: inline-block;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 16px 20px;
+}
+
+/* ------------------------------------------------- */
+
+/*scrollable banner section */
+
+
+.header
+{
+	background-position : center;
+	background-image : url('./imgs/sky.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	justify-content: center;
+	height : 100%;
+	display : flex;
+	align-items : center;
+	background-attachment: scroll;
+	}
+
+h1 {
+  color: black;
+  font-family: 'Handlee', cursive;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 60px;
+  margin: 0;
+  text-align: center; 
+  background-attachment: scroll;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 100;
+  background-attachment: scroll;
+}
+
+h4 {
+  color: black;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 60px;
+  margin: 0;
+  text-align: center; 
+  background-attachment: scroll;
+}
+
+b {
+  margin-left: 440px;
+  background-attachment: scroll;
+}
+
+
+
+.caption {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: rgba(255, 255, 255, 0.99);
+  display: block;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
+  line-height: 25px;
+  margin-left: 40px;
+  padding: 10px;
+  position: relative;
+  top: 100%;
+  width: 80%;
+  text-align: center;
+  background-attachment: scroll;
+}
+
+/* ------------------------------------------------------- */
+
+
+
+.story {
+  background: #EEEFF1;
+  box-sizing: border-box;
+  width: 75%;
+  margin: 20px auto;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+h3 {
+  color: #14213D;
+  font-family:  'Handlee', cursive;
+  font-size: 28px;
+  text-align: center;
+  
+}
+
+.btn {
+  background-color: #14213D;
+  background-image: -webkit-linear-gradient(#FFD194, #BC1324);
+  color: #FFF;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.story-img
+{
+	width: 100%;
+	box-shadow: 0 0 20px 4px black;
+}
+
+p {
+  color: #333;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.blue 
+{
+  color: #14213D !important;
+}
+
+
+/* Footer*/
+
+.footer
+{
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 25px;
+}
+
+
+
+/* about page */
+
+.about
+{
+	box-sizing: border-box;
+	width: 100%;
+	padding: 20px 0px;
+	text-align: center;
+	 display:inline-block;
+    clear:both;
+    margin: 0px auto 0px auto;
+}
+#about-banner
+{
+	height: 30rem;
+	width: 100%;
+}
+#dp-about
+{
+	position: absolute;
+	top: 120px;
+	left: 40px;
+	border-radius: 50%;
+}
+#about-banner-text
+{
+	position: absolute;
+	top: 200px;
+	left: 580px;
+	width: 50%;
+}
+.caption-about {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: black;
+  display: block;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
+  line-height: 25px;
+  margin-left: 40px;
+  padding: 10px;
+  position: relative;
+  top: 100%;
+  width: 80%;
+  text-align: center;
+  background-attachment: scroll;
+}
+
+#head-para-abt
+{
+	margin-left: 40px;
+	margin-top: 30px;
+	text-align: center;
+	float: left;
+}
+#para-abt
+{
+	margin-left: 400px;
+	font-family: 'Handlee', cursive;
+	font-size: 25px;
+	text-align: center;
+	word-spacing: 7px;
+	line-height: 1.5em;
+	font-weight: bold;
+	max-width: 1100px;
+}
+
+
+l1, l3, l5, l7
+{
+	font-size: 16px;	
+}
+l2, l4, l6
+{
+	font-size: 20px;	
+}
+
+
+.connect h1
+{
+  color: black;
+  font-family: 'Handlee', cursive;
+  font-size: 70px;
+  font-weight: 400;
+  margin-top: 130px;
+  margin-left: 40px;
+}
+
+.connect img
+{
+	width: 50px;
+	height: 50px;
+}
+
+.connect table
+{
+	margin-top: 30px;
+	margin-bottom: 100px;
+	border-spacing: 1em;
+	font-family: 'Philosopher', sans-serif;
+}
+
